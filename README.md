@@ -1,7 +1,7 @@
 [![Work in Repl.it](https://classroom.github.com/assets/work-in-replit-14baed9a392b3a25080506f3b7b6d57f295ec2978f6f33ec97e36a161684cbe9.svg)](https://classroom.github.com/online_ide?assignment_repo_id=313144&assignment_repo_type=GroupAssignmentRepo)
 # Group 311 - Meteorites, sizes and types.
 
-It rhymes!
+The title rhymes!
 
 ## Milestones
 
@@ -13,15 +13,19 @@ I would like to learn more about the origins of meteorites that impact Earth. Qu
 
 ## Describe your dataset in about 150-200 words
 
+
 My dataset is provided by NASA and The Meteoritical Society.
 It contains data on all of the known meteorite landings, about 34,000 of them.
 For each meteorite it contains the geolocation, year it fell, mass, and type of meteorite.
 The type of meteorite indicates the composition, that is, stony, stony-iron, or iron, and it also indicates the potential origin (e.g. Mars).
+The data was collected from meteorite landings from as early as the 9th century to now.
+This dataset is from NASA's open source archives and was released to benefit science.
+This data was collected by human account.
+
 
 ## Team Members
 
 - Nolan Koblischke: I like space.
 
 ## References
-
-{Add your stuff here}
+https://data.nasa.gov/Space-Science/Meteorite-Landings/gh4g-9sfh
