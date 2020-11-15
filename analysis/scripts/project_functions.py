@@ -23,10 +23,19 @@ def load_and_process(url_or_path_to_csv_file):
     df2.assign(year = df2['year'].astype(int))
     .query('year < 2021')
     .drop(columns=['GeoLocation'])
-
+    .rename(columns={"reclong": "long", "reclat": "lat", "recclass": "class", "mass (g)": "mass"})
     )
 
 
     # Make sure to return the latest dataframe
 
     return df3
+
+def top_classes(df, n=10):
+    df_classcount = df[["id",'class']].groupby(['class']).count().sort_values(by="id",ascending=False)
+    df2 = df[(df["class"].isin(df_classcount[:n].index.to_list()))]
+    df2 = (
+        df2.reset_index()
+        .drop(columns=['index'])
+    )
+    return df2
