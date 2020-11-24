@@ -10,23 +10,23 @@ My dataset is provided by NASA and The Meteoritical Society.
 It contains data on all of the known meteorite landings, about 34,000 of them.
 
 Columns:
-    * Name: Given name, associated with landing site.
-    * ID
-    * Nametype
-        * valid: meteorite has not been weathered
-        * relict: meteorite highly weathered
-    * recclass: meteorite type
-        * Chrondites, Achrondites: Stony
-        * Irony
-        * PAL: Stony-Iron
-    * mass: in grams
-    * fall:
-        * Found: not seen to fall from sky
-        * Fall: seen fall from sky
-    * year
-    * reclat: Latitude
-    * reclong: Longtitude
-    * Geolocation: Contains Latitude and Longtitude
+ - Name: Given name, associated with landing site.
+ - ID
+ - Nametype
+     - valid: meteorite has not been weathered
+     - relict: meteorite highly weathered
+ - recclass: meteorite type
+     - Chrondites, Achrondites: Stony
+     - Irony
+     - PAL: Stony-Iron
+ - mass: in grams
+ - fall:
+     - Found: not seen to fall from sky
+     - Fall: seen fall from sky
+ - year
+ - reclat: Latitude
+ - reclong: Longtitude
+ - Geolocation: Contains Latitude and Longtitude
 
 This dataset is from NASA's open source archives and was released to benefit science.
 This data was collected by human account.
