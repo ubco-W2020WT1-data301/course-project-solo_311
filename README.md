@@ -1,6 +1,7 @@
 # Group 311 - Meteorite Landing Analysis
 
 ## Introduction
+Video: https://youtu.be/YCOOmkUgxx4
 
 It should have an introduction that gives the reader some information about the data and your question.
 
@@ -52,3 +53,4 @@ This data was collected by human account.
 https://data.nasa.gov/Space-Science/Meteorite-Landings/gh4g-9sfh
 
 Tableau Published: https://dub01.online.tableau.com/#/site/data301dashboards/views/MeteoriteLandings-NolanKoblischke-Solo311/MeteoriteLandings-NolanKoblischke
+Video: https://youtu.be/YCOOmkUgxx4
